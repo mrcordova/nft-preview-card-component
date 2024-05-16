@@ -72,6 +72,8 @@ footer {
     font-size: 1.06rem;
    flex: 1;
    justify-self: flex-end;
+   /* color: hsl(220, 37.14%, 58.82%); */
+   color: hsl(218.96, 38.31%, 60.59%);
 }
 .icon-con {
     display: flex;
@@ -83,6 +85,8 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-block-start: 0.05rem;
+    padding-block-end: 1.60rem;
+    border-bottom: 0.1rem solid var(--very-dark-blue-line);
    
 }
 .icon-eth>p {
