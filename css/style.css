@@ -35,7 +35,8 @@ body {
     flex-direction: column;
     min-width: 0;
     border-radius: 15.15px;
-  
+    padding-inline: 1.5rem;
+    padding-block: 1.6rem;
 }
 .card-img {
     /* border-radius: 15px; */
@@ -43,9 +44,9 @@ body {
 .card-img>img {
     aspect-ratio: none;
     max-width: 100%;
-    padding-inline: 1.5rem;
-    padding-block: 1.6rem;
-    border-radius: 33px;
+    
+    
+    border-radius: 8px;
 }
 
 footer {
