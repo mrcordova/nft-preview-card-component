@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-    background-color: var(--very-dark-blue-main);
+    /* background-color: var(--very-dark-blue-main); */
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -25,11 +25,20 @@ body {
 }
 
 .card {
+    max-inline-size: 21.8rem;
     background-color: var(--very-dark-blue-card);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
 }
-.card-img {
-    min-width: 100%;
-    margin: 3rem;
+
+.card-img>img {
+    /* flex: 1; */
+    aspect-ratio: none;
+    max-width: 100%;
+    /* padding: 1rem; */
+
 }
 
 .outfit-300 {
