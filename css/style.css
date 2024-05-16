@@ -68,10 +68,16 @@ footer {
 }
 .icon-con {
     display: flex;
+
 }
 .icons-con {
     display: flex;
     justify-content: space-between;
+}
+.icon-eth>p {
+    padding-inline-start: 0.43rem;
+    font-size: 1rem;
+    color: var(--cyan);
 }
 
 .outfit-300 {
