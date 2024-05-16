@@ -38,6 +38,7 @@ body {
     padding-inline: 1.5rem;
     padding-block: 1.6rem;
     /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
 }
 .card-img {
     /* border-radius: 15px; */
@@ -49,9 +50,14 @@ body {
     
     border-radius: 8px;
 }
+.card-para {
+
+}
 .card-title {
     font-size: 1.40rem;
-    padding-block: 1.7rem
+    padding-block: 1.7rem;
+    letter-spacing: 0.015rem;
+    color: var(--white);
 }
 footer {
     /* justify-self: flex-end; */
