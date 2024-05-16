@@ -16,6 +16,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    /* background-color: var(--very-dark-blue-main); */
+}
+
 
 .outfit-300 {
   font-family: "Outfit", sans-serif;
