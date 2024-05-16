@@ -28,12 +28,13 @@ body {
 
 .card {
     flex: 1;
-    max-inline-size: 21.8rem;
-    max-block-size: 37rem;
-    background-color: var(--very-dark-blue-card);
+    max-inline-size: 21.82rem;
+    max-block-size: 37.1rem;
+    background-color: red;
     display: flex;
     flex-direction: column;
     min-width: 0;
+    border-radius: 14px;
   
 }
 
@@ -47,6 +48,7 @@ body {
 
 footer {
     /* justify-self: flex-end; */
+    /* flex: 1; */
    
 }
 
