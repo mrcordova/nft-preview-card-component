@@ -29,12 +29,12 @@ body {
 .card {
     flex: 1;
     max-inline-size: 21.82rem;
-    max-block-size: 37.1rem;
+    max-block-size: 37.2rem;
     background-color: red;
     display: flex;
     flex-direction: column;
     min-width: 0;
-    border-radius: 14px;
+    border-radius: 15.15px;
   
 }
 
