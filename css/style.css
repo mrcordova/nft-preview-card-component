@@ -42,7 +42,6 @@ body {
     /* Mobile */
     max-inline-size: 20.5rem;
     max-block-size: 34rem;
-    
     border-radius: 15.15px;
     padding-inline: 1.6rem;
     padding-block: 1.55rem;
@@ -52,13 +51,19 @@ body {
 .card-img>img {
     aspect-ratio: none;
     max-width: 100%;
-    
-    
     border-radius: 8px;
 }
 .card-para {
+    /* Desktop */
+    /* padding-block-end: 1.4rem; */
+    /* line-height: 1.45; */
+    /* font-size: 1.125rem; */
+    
+    /* Mobile */
     padding-block-end: 1.4rem;
     line-height: 1.45;
+    font-size: 1rem;
+
     color: hsl(216.43, 22.95%, 52.16%);
 }
 .card-title {
