@@ -83,9 +83,15 @@ body {
 } */
 
 .icon-clock>p {
+
+    /* Desktop */
+    /* padding-inline-start: 0.35rem; */
+    /* font-size: 1.06rem; */
+
+    /* mobile */
     padding-inline-start: 0.35rem;
-    font-size: 1.06rem;
-   flex: 1;
+    font-size: 0.95rem;
+    flex: 1;
    justify-self: flex-end;
  
    color: hsl(218.96, 38.31%, 60.59%);
@@ -105,8 +111,11 @@ body {
    
 }
 .icon-eth>p {
-    padding-inline-start: 0.43rem;
-    font-size: 1rem;
+    /* Desktop */
+    /* padding-inline-start: 0.43rem; */
+    /* font-size: 1rem; */
+    padding-inline-start: 0.27rem;
+    font-size: 0.95rem;
     color: var(--cyan);
     flex: 1;
 }
