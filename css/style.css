@@ -51,8 +51,9 @@ body {
     border-radius: 8px;
 }
 .card-para {
-    /* padding-block: 0.25rem; */
+    padding-block-end: 1.4rem;
     line-height: 1.45;
+    color: var(--soft-blue);
 }
 .card-title {
     font-size: 1.39rem;
@@ -70,6 +71,7 @@ footer {
 }
 .icons-con {
     display: flex;
+    justify-content: space-between;
 }
 
 .outfit-300 {
