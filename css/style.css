@@ -54,9 +54,9 @@ body {
 
 }
 .card-title {
-    font-size: 1.40rem;
+    font-size: 1.39rem;
     padding-block: 1.7rem;
-    letter-spacing: 0.015rem;
+    letter-spacing: 0.018rem;
     color: var(--white);
 }
 footer {
