@@ -75,14 +75,15 @@ footer {
 }
 .icon-con {
     display: flex;
-    margin-block-start: 0.05rem;
+    
    
 }
 .icons-con {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* justify-content: space-between; */
+    margin-block-start: 0.05rem;
+   
 }
 .icon-eth>p {
     padding-inline-start: 0.43rem;
