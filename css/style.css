@@ -51,11 +51,12 @@ body {
     border-radius: 8px;
 }
 .card-para {
-
+    /* padding-block: 0.25rem; */
+    line-height: 1.45;
 }
 .card-title {
     font-size: 1.39rem;
-    padding-block: 1.7rem;
+    padding-block: 1.7rem 1.3rem;
     letter-spacing: 0.018rem;
     color: var(--white);
 }
