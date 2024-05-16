@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-    background-color: var(--very-dark-blue-main);
+    /* background-color: var(--very-dark-blue-main); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,12 +37,9 @@ body {
     border-radius: 15.15px;
     padding-inline: 1.5rem;
     padding-block: 1.6rem;
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly; */
+  
 }
-.card-img {
-    /* border-radius: 15px; */
-}
+
 .card-img>img {
     aspect-ratio: none;
     max-width: 100%;
@@ -61,18 +58,17 @@ body {
     letter-spacing: 0.018rem;
     color: var(--white);
 }
-footer {
-    /* justify-self: flex-end; */
-    /* flex: 1; */
-   
-}
+/* footer {
+    justify-self: flex-end;
+    flex: 1;
+} */
 
 .icon-clock>p {
     padding-inline-start: 0.35rem;
     font-size: 1.06rem;
    flex: 1;
    justify-self: flex-end;
-   /* color: hsl(220, 37.14%, 58.82%); */
+ 
    color: hsl(218.96, 38.31%, 60.59%);
 }
 .icon-con {
@@ -128,7 +124,7 @@ footer {
     font-size: 1.005rem;
     color: var(--soft-blue);
     line-height: 1.1;
-    /* letter-spacing: 0.005rem; */
+   
 }
 
 .profile-con>p>span {
