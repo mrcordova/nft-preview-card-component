@@ -1,0 +1,37 @@
+:root {
+    /* Primary */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    --very-dark-blue-main : hsl(217, 54%, 11%);
+    --very-dark-blue-card : hsl(216, 50%, 16%);
+    --very-dark-blue-line : hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --body-font-size: 18px;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+.outfit-300 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.outfit-400 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.outfit-600 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
