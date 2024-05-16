@@ -122,3 +122,15 @@ footer {
     border: 0.1rem solid var(--white);
     border-radius: 15.5px;
 }
+.profile-con>p {
+    align-self: center;
+    padding-inline-start: 1.16rem;
+    font-size: 1.005rem;
+    color: var(--soft-blue);
+    line-height: 1.1;
+    /* letter-spacing: 0.005rem; */
+}
+
+.profile-con>p>span {
+    color: var(--white);
+}
