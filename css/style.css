@@ -20,26 +20,37 @@ body {
     /* background-color: var(--very-dark-blue-main); */
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
+   
+    min-width: 0;
 }
 
 .card {
+    flex: 1;
     max-inline-size: 21.8rem;
+    max-block-size: 37rem;
     background-color: var(--very-dark-blue-card);
     display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    min-width: 0;
+  
 }
 
 .card-img>img {
-    /* flex: 1; */
     aspect-ratio: none;
     max-width: 100%;
-    /* padding: 1rem; */
+    padding-inline: 1.5rem;
+    padding-block: 1.68rem;
 
 }
+
+footer {
+    /* justify-self: flex-end; */
+   
+}
+
+
 
 .outfit-300 {
   font-family: "Outfit", sans-serif;
