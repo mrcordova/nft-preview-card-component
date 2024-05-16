@@ -37,6 +37,7 @@ body {
     border-radius: 15.15px;
     padding-inline: 1.5rem;
     padding-block: 1.6rem;
+    justify-content: space-between;
 }
 .card-img {
     /* border-radius: 15px; */
@@ -54,8 +55,13 @@ footer {
     /* flex: 1; */
    
 }
+.icon-con {
+    display: flex;
+}
 
-
+.profile-con {
+    display: flex;
+}
 
 .outfit-300 {
   font-family: "Outfit", sans-serif;
