@@ -28,8 +28,14 @@ body {
 
 .card {
     flex: 1;
-    max-inline-size: 21.82rem;
-    max-block-size: 37.35rem;
+    /* Desktop */
+    /* max-inline-size: 21.82rem; */
+    /* max-block-size: 37.35rem; */
+
+    /* Mobile */
+    max-inline-size: 20rem;
+    max-block-size: 34rem;
+    
     background-color: var(--very-dark-blue-card);
     display: flex;
     flex-direction: column;
