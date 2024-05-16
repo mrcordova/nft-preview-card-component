@@ -39,7 +39,10 @@ body {
     /* padding-inline: 1.5rem; */
     /* padding-block: 1.6rem; */
 
-    max-inline-size: clamp(20.5rem, 18.3243vw + 3.15rem, 21.82rem);
+   
+    inline-size: clamp(20.5rem, 20.0423rem + 1.9531vw, 21.8rem);
+       
+    /* inline-size: clamp(20.5rem, 18.3243vw + 3.15rem, 21.82rem); */
     /* 276.8  297.909*/
     /* Mobile */
     /* max-inline-size: 18.3243vw; */
