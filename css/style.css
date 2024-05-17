@@ -134,8 +134,11 @@ body {
     /* Desktop */
     /* padding-inline-start: 0.43rem; */
     /* font-size: 1rem; */
-    padding-inline-start: 0.27rem;
-    font-size: 0.95rem;
+
+    padding-inline-start: clamp(0.27rem, 0.2137rem + 0.2404vw, 0.43rem);
+    font-size: clamp(0.95rem, 0.9324rem + 0.0751vw, 1rem);
+    /* padding-inline-start: 0.27rem; */
+    /* font-size: 0.95rem; */
     color: var(--cyan);
     flex: 1;
 }
