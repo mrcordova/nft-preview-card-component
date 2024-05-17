@@ -70,6 +70,11 @@ body {
     color: var(--white);
 }
 
+.card-title:is(:hover, :focus) {
+    cursor: pointer;
+    color: var(--cyan);
+}
+
 .icon-clock>p {
 
    
@@ -147,4 +152,8 @@ body {
 
 .profile-con>p>span {
     color: var(--white);
+}
+.profile-con>p>span:is(:hover, :focus) {
+    cursor: pointer;
+    color: var(--cyan);
 }
