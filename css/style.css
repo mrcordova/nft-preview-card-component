@@ -42,15 +42,16 @@ body {
    
     max-inline-size: clamp(20.5rem, 20.0423rem + 1.9531vw, 21.8rem);
     max-block-size: clamp(34rem, 32.8204rem + 5.0329vw, 37.35rem);
-       
+    padding-inline: clamp(1.5rem, 1.6352rem + -0.1502vw, 1.6rem);
+    padding-block: clamp(1.55rem, 1.5324rem + 0.0751vw, 1.6rem);
     /* inline-size: clamp(20.5rem, 18.3243vw + 3.15rem, 21.82rem); */
     /* 276.8  297.909*/
     /* Mobile */
     /* max-inline-size: 18.3243vw; */
     /* max-block-size: 34rem; */
     border-radius: 15.15px;
-    padding-inline: 1.6rem;
-    padding-block: 1.55rem;
+    /* padding-inline: 1.6rem; */
+    /* padding-block: 1.55rem; */
   
 }
 
@@ -77,10 +78,13 @@ body {
     /* Desktop */
     /* padding-block: 1.7rem 1.3rem; */
 
+    padding-block-start: 1.7rem;
+    padding-block-end: clamp(1rem, 0.8944rem + 0.4507vw, 1.3rem); 
+    letter-spacing: clamp(0rem, 0.0243rem + -0.0270vw, 0.018rem);;
     /* Mobile */
-    padding-block: 1.7rem 1rem;
-
-    letter-spacing: 0.018rem;
+    /* padding-block: 1.7rem 1rem; */
+ 
+    /* letter-spacing: 0.018rem; */
     color: var(--white);
 }
 /* footer {
