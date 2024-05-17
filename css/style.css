@@ -122,10 +122,11 @@ body {
     /* Desktop */
     /* margin-block-start: 0.05rem; */
     /* padding-block-end: 1.60rem; */
-
+    margin-block-start: clamp(0.05rem, 0.5094rem + -0.8750vw, 0.3125rem);
+    padding-block-end: clamp(1.0625rem, 0.6594rem + 1.7917vw, 1.6rem);
     /* Mobile */
-    margin-block-start: 0.3125rem;
-    padding-block-end: 1.0625rem;
+    /* margin-block-start: 0.3125rem; */
+    /* padding-block-end: 1.0625rem; */
     border-bottom: 0.1rem solid var(--very-dark-blue-line);
    
 }
