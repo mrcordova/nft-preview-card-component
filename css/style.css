@@ -41,12 +41,13 @@ body {
 
    
     inline-size: clamp(20.5rem, 20.0423rem + 1.9531vw, 21.8rem);
+    max-block-size: clamp(34rem, 32.8204rem + 5.0329vw, 37.35rem);
        
     /* inline-size: clamp(20.5rem, 18.3243vw + 3.15rem, 21.82rem); */
     /* 276.8  297.909*/
     /* Mobile */
     /* max-inline-size: 18.3243vw; */
-    max-block-size: 34rem;
+    /* max-block-size: 34rem; */
     border-radius: 15.15px;
     padding-inline: 1.6rem;
     padding-block: 1.55rem;
