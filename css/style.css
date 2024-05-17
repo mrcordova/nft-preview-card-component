@@ -17,7 +17,7 @@ html, body {
 }
 
 body {
-    /* background-color: var(--very-dark-blue-main); */
+    background-color: var(--very-dark-blue-main);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -32,26 +32,16 @@ body {
     display: flex;
     flex-direction: column;
     min-width: 0;
-    /* Desktop */
-    /* max-inline-size: 21.82rem; */
-    /* max-block-size: 37.35rem; */
-    /* border-radius: 15.15px; */
-    /* padding-inline: 1.5rem; */
-    /* padding-block: 1.6rem; */
+   
 
    
     max-inline-size: clamp(20.5rem, 20.0423rem + 1.9531vw, 21.8rem);
     max-block-size: clamp(34rem, 32.8204rem + 5.0329vw, 37.35rem);
     padding-inline: clamp(1.5rem, 1.6352rem + -0.1502vw, 1.6rem);
     padding-block: clamp(1.55rem, 1.5324rem + 0.0751vw, 1.6rem);
-    /* inline-size: clamp(20.5rem, 18.3243vw + 3.15rem, 21.82rem); */
-    /* 276.8  297.909*/
-    /* Mobile */
-    /* max-inline-size: 18.3243vw; */
-    /* max-block-size: 34rem; */
+
     border-radius: 15.15px;
-    /* padding-inline: 1.6rem; */
-    /* padding-block: 1.55rem; */
+  
   
 }
 
@@ -61,54 +51,34 @@ body {
     border-radius: 8px;
 }
 .card-para {
-    /* Desktop */
-    /* padding-block-end: 1.4rem; */
-    /* line-height: 1.45; */
-    /* font-size: 1.125rem; */
+
     padding-block-end: clamp(1rem, 0.8592rem + 0.6009vw, 1.4rem);
     line-height: clamp(1.45rem, 1.5176rem + -0.0751vw, 1.5rem);
     font-size: clamp(1rem, 0.9560rem + 0.1878vw, 1.125rem);
-    /* Mobile */
-    /* padding-block-end: 1rem; */
-    /* line-height: 1.5; */
-    /* font-size: 1rem; */
+
 
     color: hsl(216.43, 22.95%, 52.16%);
 }
 .card-title {
     font-size: 1.39rem;
-    /* Desktop */
-    /* padding-block: 1.7rem 1.3rem; */
+  
 
     padding-block-start: 1.7rem;
     padding-block-end: clamp(1rem, 0.8944rem + 0.4507vw, 1.3rem); 
     letter-spacing: clamp(0rem, 0.0243rem + -0.0270vw, 0.018rem);;
-    /* Mobile */
-    /* padding-block: 1.7rem 1rem; */
- 
-    /* letter-spacing: 0.018rem; */
+
     color: var(--white);
 }
-/* footer {
-    justify-self: flex-end;
-    flex: 1;
-} */
 
 .icon-clock>p {
 
-    /* Desktop */
-    /* padding-inline-start: 0.35rem; */
-    /* font-size: 1.06rem; */
+   
     padding-inline-start: 0.35rem;
     font-size: clamp(0.95rem, 0.9113rem + 0.1653vw, 1.06rem);
-
-    /* mobile */
-    /* padding-inline-start: 0.35rem; */
-    /* font-size: 0.95rem; */
     flex: 1;
-   justify-self: flex-end;
+    justify-self: flex-end;
  
-   color: hsl(218.96, 38.31%, 60.59%);
+    color: hsl(218.96, 38.31%, 60.59%);
 }
 .icon-con {
     display: flex;
@@ -119,26 +89,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Desktop */
-    /* margin-block-start: 0.05rem; */
-    /* padding-block-end: 1.60rem; */
+  
     margin-block-start: clamp( 0.05rem, 0.4049rem + -0.3944vw,  0.3125rem);
     padding-block-end: clamp(1.0625rem, 0.8732rem + 0.8075vw, 1.6rem);
-    /* Mobile */
-    /* margin-block-start: 0.3125rem; */
-    /* padding-block-end: 1.0625rem; */
+   
     border-bottom: 0.1rem solid var(--very-dark-blue-line);
    
 }
 .icon-eth>p {
-    /* Desktop */
-    /* padding-inline-start: 0.43rem; */
-    /* font-size: 1rem; */
+    
 
     padding-inline-start: clamp(0.27rem, 0.2137rem + 0.2404vw, 0.43rem);
     font-size: clamp(0.95rem, 0.9324rem + 0.0751vw, 1rem);
-    /* padding-inline-start: 0.27rem; */
-    /* font-size: 0.95rem; */
+  
     color: var(--cyan);
     flex: 1;
 }
@@ -163,10 +126,7 @@ body {
 }
 .profile-con {
     display: flex;
-    /* Desktop */
-    padding-block-start: 1rem;
-
-    /* Mobile */
+ 
     padding-block-start: 1rem;
 } 
 .profile-con>img {
@@ -176,15 +136,11 @@ body {
 .profile-con>p {
     align-self: center;
 
-    /* Desktop */
-    /* padding-inline-start: 1.16rem; */
-    /* font-size: 1.005rem; */
-    /* line-height: 1.1; */
 
-    /* Mobile */
+    font-size: clamp(0.95rem, 0.9306rem + 0.0826vw, 1.005rem);
     padding-inline-start: 1.16rem;
-    font-size: 0.95rem;
     line-height: 1.1;
+    
     color: var(--soft-blue);
    
 }
