@@ -99,10 +99,12 @@ body {
     /* Desktop */
     /* padding-inline-start: 0.35rem; */
     /* font-size: 1.06rem; */
+    padding-inline-start: 0.35rem;
+    font-size: clamp(0.95rem, 0.9113rem + 0.1653vw, 1.06rem);
 
     /* mobile */
-    padding-inline-start: 0.35rem;
-    font-size: 0.95rem;
+    /* padding-inline-start: 0.35rem; */
+    /* font-size: 0.95rem; */
     flex: 1;
    justify-self: flex-end;
  
